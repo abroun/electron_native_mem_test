@@ -1,0 +1,17 @@
+{
+  "name": "electron_app",
+  "version": "1.0.0",
+  "description": "Test app looking at memory allocation in C++ extensions",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Alan Broun",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.1"
+  },
+  "dependencies": {
+    "native_addon": "file:../native_addon"
+  }
+}

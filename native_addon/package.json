@@ -1,0 +1,19 @@
+{
+  "name": "native_addon",
+  "version": "1.0.0",
+  "description": "Native addon that allocates blocks of memory, 1GB at a time.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx cmake-js compile --config Debug",
+    "install": "npx cmake-js compile --config Debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.1.0"
+  },
+  "devDependencies": {
+    "cmake-js": "^7.3.0"
+  }
+}
